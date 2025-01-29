@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
   
     container:  # If using a Docker container
-      image: python:3.9-slim  # Use a pre-built Python image
+      image: python:3.9  # Use a pre-built Python image
 
     steps:
       - uses: actions/checkout@v4
